@@ -193,9 +193,97 @@ print(mappedNumbers)                                        // Single statement 
 
 
 // ### Objects and Classes
-class Shape {
+class NamedShape {
     var numberOfSides = 0
+    var name: String
+
+    init(name: String) {
+       self.name = name
+    }
     func simpleDescription() -> String {
         return "A shape with \(numberOfSides) sides."
     }
+    
+    deinit {
+        // This function provides cleanup before the object is deallocated
+    }
 }
+
+// Creating and accessing classes
+var myShape = NamedShape(name: "Septagon")
+myShape.numberOfSides = 7
+var shapeDescription = myShape.simpleDescription()
+
+// Subclasses
+class Square: NamedShape {
+    var sideLength: Double
+
+    init(sideLength: Double, name: String) {
+        self.sideLength = sideLength
+        super.init(name: name)
+        numberOfSides = 4
+    }
+
+    func area() -> Double {
+        return sideLength * sideLength
+    }
+
+    override func simpleDescription() -> String {
+        return "A square with sides of length \(sideLength)."
+    }
+}
+let test = Square(sideLength: 5.2, name: "my test square")
+test.area()
+test.simpleDescription()
+
+// Getters and Setters
+class EquilateralTriangle: NamedShape {
+    var sideLength: Double = 0.0
+
+    init(sideLength: Double, name: String) {
+        self.sideLength = sideLength
+        super.init(name: name)
+        numberOfSides = 3
+    }
+
+    var perimeter: Double {
+        get {
+             return 3.0 * sideLength
+        }
+        set {
+            sideLength = newValue / 3.0
+        }
+    }
+
+    override func simpleDescription() -> String {
+        return "An equilateral triangle with sides of length \(sideLength)."
+    }
+}
+var triangle = EquilateralTriangle(sideLength: 3.1, name: "a triangle")
+print(triangle.perimeter)
+triangle.perimeter = 9.9
+print(triangle.sideLength)
+
+// ### Enums and Structures
+enum Rank: Int {
+    case ace = 1
+    case two, three, four, five, six, seven, eight, nine, ten
+    case jack, queen, king
+
+    func simpleDescription() -> String {
+        switch self {
+            case .ace:
+                return "ace"
+            case .jack:
+                return "jack"
+            case .queen:
+                return "queen"
+            case .king:
+                return "king"
+            default:
+                return String(self.rawValue)
+        }
+    }
+}
+let myAce = Rank.ace
+let aceRawValue = myAce.rawValue
