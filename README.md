@@ -6,6 +6,9 @@ This repository is dedicated to learning Swift. It contains notes, experiments, 
 ### Materials Used
 
 - [A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
+- [The Swift Language Guide](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+- [Apple's SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui)
+- [Stanford CS193p](https://youtu.be/jbtqIBpUG7g)
 
 ### Contents
 
