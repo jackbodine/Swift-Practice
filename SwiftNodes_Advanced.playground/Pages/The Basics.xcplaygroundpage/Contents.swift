@@ -1,5 +1,3 @@
-import UIKit
-
 /**
  # Markdown Comments
  This is an example of a markdown comment.
