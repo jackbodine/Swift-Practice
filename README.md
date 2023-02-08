@@ -9,6 +9,7 @@ This repository is dedicated to learning Swift. It contains notes, experiments, 
 - [The Swift Language Guide](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
 - [Apple's SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui)
 - [Stanford CS193p](https://cs193p.sites.stanford.edu)
+- [Apple UI Design Guidelines](https://developer.apple.com/design/)
 
 ### Contents
 
