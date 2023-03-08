@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUI_PracticeApp: App {
-    let game = EmojiMemoryGame()    // Viewmodels should be let (constants)
+    private let game = EmojiMemoryGame()    // Viewmodels should be let (constants)
     
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: game)
+            EmojiMemoryGameView(game: game)
         }
     }
 }

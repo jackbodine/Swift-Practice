@@ -1,4 +1,4 @@
-#  <#Title#>
+#  Lecture 4 Notes
 
 ## Enum
 a structure that can be one of multiple states and with associated data
