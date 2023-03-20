@@ -19,7 +19,7 @@ class EmojiMemoryGame: ObservableObject {
     // private(set) makes it readable but not writable.
     
     private static func createMemoryGame() -> MemoryGame<String> {
-        MemoryGame(numberOfPairsOfCards: 4) { pairIndex in
+        MemoryGame(numberOfPairsOfCards: 5) { pairIndex in
             EmojiMemoryGame.emojis[pairIndex]
         }
     }
