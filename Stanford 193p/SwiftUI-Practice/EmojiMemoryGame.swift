@@ -37,5 +37,13 @@ class EmojiMemoryGame: ObservableObject {
 //        objectWillChange.send() //publish to the world that something changed. Automatically done by @published
         model.choose(card)
     }
+    
+    func shuffle() {
+        model.shuffle()
+    }
+    
+    func restart() {
+        model = EmojiMemoryGame.createMemoryGame()
+    }
 }
 

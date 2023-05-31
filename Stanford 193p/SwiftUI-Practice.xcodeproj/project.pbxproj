@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054D24D82A27A1A3007DE9D9 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D24D72A27A1A3007DE9D9 /* Cardify.swift */; };
 		05B045B229C80592007C91C9 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B045B129C80592007C91C9 /* AspectVGrid.swift */; };
 		05B045B429C8138D007C91C9 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B045B329C8138D007C91C9 /* Pie.swift */; };
 		05B5E42D29922DF300F1645A /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B5E42C29922DF300F1645A /* MemoryGame.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054D24D72A27A1A3007DE9D9 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		05B045B129C80592007C91C9 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		05B045B329C8138D007C91C9 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		05B5E42C29922DF300F1645A /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				05B5E42C29922DF300F1645A /* MemoryGame.swift */,
 				05B5E42E2992309500F1645A /* EmojiMemoryGame.swift */,
 				05D30080298F343B00905C79 /* EmojiMemoryGameView.swift */,
+				054D24D72A27A1A3007DE9D9 /* Cardify.swift */,
 				05B045B329C8138D007C91C9 /* Pie.swift */,
 				05B045B129C80592007C91C9 /* AspectVGrid.swift */,
 				05D3007E298F343B00905C79 /* SwiftUI_PracticeApp.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B045B429C8138D007C91C9 /* Pie.swift in Sources */,
+				054D24D82A27A1A3007DE9D9 /* Cardify.swift in Sources */,
 				05B5E42D29922DF300F1645A /* MemoryGame.swift in Sources */,
 				05D30081298F343B00905C79 /* EmojiMemoryGameView.swift in Sources */,
 				05D3007F298F343B00905C79 /* SwiftUI_PracticeApp.swift in Sources */,
